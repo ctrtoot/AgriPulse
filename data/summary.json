@@ -1,0 +1,11 @@
+{
+  "grid_count": 22160,
+  "soil_complete": 21252,
+  "slope_mean_deg": 10.42,
+  "climate_source_distance_km_mean": 23.14,
+  "climate_source_distance_km_max": 43.59,
+  "maize_classified_pct": 99.91,
+  "peanut_classified_pct": 99.91,
+  "climate_points": 13,
+  "period": "2005–2025 climatology"
+}

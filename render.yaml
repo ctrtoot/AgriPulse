@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: agripulse-gia-lai-demo
+    runtime: python
+    buildCommand: ""
+    startCommand: "python server.py"
+    envVars:
+      - key: HOST
+        value: 0.0.0.0

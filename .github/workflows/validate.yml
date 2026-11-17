@@ -1,0 +1,16 @@
+name: Validate AgriPulse data
+on:
+  push:
+  pull_request:
+jobs:
+  data-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate bundled data
+        run: python tests/validate_data.py
+      - name: Check server syntax
+        run: python -m py_compile server.py

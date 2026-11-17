@@ -1,0 +1,15 @@
+check,value,note
+Grid cells,22160,22.160 ô lưới; mỗi ô xấp xỉ 1 km
+Maize rows,265920,22.160 ô x 12 tháng
+Peanut rows,265920,22.160 ô x 12 tháng
+Duplicate grid-month keys,0,Đã kiểm tra theo từng cây
+Classified cells per month,22139/22160,99.905%; 21 ô thiếu lớp do thiếu dữ liệu địa hình/độ dốc
+Climate source points,13,NASA POWER; gán điểm gần nhất
+Mean climate source distance,23.14 km,Không phải dữ liệu khí hậu 1 km thực đo
+Maximum climate source distance,43.59 km,Khoảng cách lớn nhất tới điểm khí hậu nguồn
+Soil complete cells,21252,Đủ 14 lớp SoilGrids
+Soil missing cells,908,Giữ thiếu dữ liệu; không tự động gán N
+Maize temperature criterion,Not scored,Nhiệt độ theo ba giai đoạn chưa được tích hợp vào lớp ngô
+Soil suitability criteria,Partial,Thuộc tính đất hiển thị nhưng chưa chấm đầy đủ trong phân hạng
+Suitability status,Provisional,Quy tắc demo; chưa kiểm chứng thực địa; không có accuracy ML
+Browser end-to-end test,Not completed,Không có browser binary trong môi trường đóng gói; cần kiểm tra trên máy trình diễn
